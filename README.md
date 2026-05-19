@@ -4,10 +4,12 @@
 
 ### En un CMD
 
-2. Ejecutar el servidor de mlflow
-mlflow server --backend-store-uri sqlite:///mlflow.db  --host 0.0.0.0 --port 9090
+2. Ejecutar el servidor de mlflow:
 
-3. Ejecutar la app prueba_streamlit.py
+   mlflow server --backend-store-uri sqlite:///mlflow.db  --host 0.0.0.0 --port 9090
+
+4. Ejecutar la app prueba_streamlit.py:
+   
    streamlit run prueba_streamlit.py
 
    
