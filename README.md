@@ -5,14 +5,9 @@
 ### En un CMD
 
 2. Ejecutar el servidor de mlflow
+mlflow server --backend-store-uri sqlite:///mlflow.db  --host 0.0.0.0 --port 9090
 
-* opción 1: mlflow server --backend-store-uri sqlite:///mlflow.db  --host 0.0.0.0 
+3. Ejecutar la app prueba_streamlit.py
+   streamlit run prueba_streamlit.py
 
-* opción 2: mlflow server --backend-store-uri sqlite:///mlflow.db  --host 0.0.0.0 --port 9090
-
-### En un CMD (nuevo)
-Para ejecutar el ejemplo usted debe:
-
-1. En un nuevo terminal 
-2. Ingresar a la carpeta data y descomprimir el archivo .zip
-3. Desde la carpeta raíz, ejecutar jupyter-lab
+   
